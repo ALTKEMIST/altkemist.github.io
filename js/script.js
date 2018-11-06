@@ -5,13 +5,13 @@
     var id = setInterval(frame, 64);
 
     function frame(){
-        if (loading==50){
+        if (loading==5){
             clearInterval(id)
             window.open("https://altkemist.github.io/altkemist", "_self");
         }
         else {
             loading += 1;
-            if (loading == 40){
+            if (loading == 4){
                 preload.style.animation = "fradeout 1s ease"
             }
         }
