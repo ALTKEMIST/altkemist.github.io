@@ -7,7 +7,7 @@
     function frame(){
         if (loading==5){
             clearInterval(id)
-            window.open("https://altkemist.github.io/altkemist", "_self");
+            //window.open("https://altkemist.github.io/altkemist", "_self");
         }
         else {
             loading += 1;
